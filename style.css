@@ -28,8 +28,8 @@ img{
   width: 400px;
 }
 
-li:last-child{
-    color: green;
+li:last-child::first-line{
+    color: red;
 }
 li:first-child::first-line{
     text-transform: capitalize;
